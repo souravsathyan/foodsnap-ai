@@ -1,0 +1,27 @@
+{
+  "name": "food_snap_ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eas-build": "eas build --platform android --profile development"
+  },
+  "dependencies": {
+    "expo": "~53.0.9",
+    "expo-dev-client": "~5.1.8",
+    "expo-status-bar": "~2.2.3",
+    "nativewind": "^4.1.23",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "^5.4.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
