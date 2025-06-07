@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "12907739533",
+    "project_id": "food-snap-ai",
+    "storage_bucket": "food-snap-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12907739533:android:4a24576594cd14e85b25c4",
+        "android_client_info": {
+          "package_name": "com.anonymous.food_snap_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12907739533-qt6isg8i6fhu5vcn89nn8oeilu3p6nja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anonymous.food_snap_ai",
+            "certificate_hash": "8bfefeeda4526e94d147aa9eeaf479089296ba71"
+          }
+        },
+        {
+          "client_id": "12907739533-dht371rki2ge746vteqf0lkg9hqtju5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv4QafgSwAVEZ8pFJ7iVNssvAzX19gY0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12907739533-dht371rki2ge746vteqf0lkg9hqtju5m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "12907739533-7ic6m5a8jplinm9ltff3rk2r2algak9f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anonymous.food-snap-ai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

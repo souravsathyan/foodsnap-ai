@@ -14,7 +14,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.food-snap-ai"
+      "bundleIdentifier": "com.anonymous.food-snap-ai",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,12 +23,32 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.food_snap_ai"
+      "package": "com.anonymous.food_snap_ai",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow FoodSnap AI to access your photos to analyze food images.",
+          "cameraPermission": "Allow FoodSnap AI to use your camera to capture food images."
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "75f83676-d05b-4ea2-a892-3096e5ef806c"

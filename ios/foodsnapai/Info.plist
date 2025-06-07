@@ -33,6 +33,12 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>com.googleusercontent.apps.12907739533-7ic6m5a8jplinm9ltff3rk2r2algak9f</string>
+        </array>
+      </dict>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
           <string>exp+foodsnapai</string>
         </array>
       </dict>
